@@ -2,7 +2,8 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    print("other change here")
+    return True
 
 
 def test_always_returns_true():
